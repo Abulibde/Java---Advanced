@@ -1,4 +1,4 @@
-package _3_SetsAndMaps;
+package Advanced._3_SetsAndMaps;
 
 /*
 Write a simple program that reads from the console a sequence of usernames and keeps a
