@@ -1,4 +1,4 @@
-package _3_SetsAndMaps;
+package Advanced._3_SetsAndMaps;
 
 import java.util.Arrays;
 import java.util.LinkedHashSet;
