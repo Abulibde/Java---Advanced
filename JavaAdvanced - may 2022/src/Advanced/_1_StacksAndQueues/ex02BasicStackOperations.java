@@ -1,4 +1,4 @@
-package Advanced;
+package Advanced._1_StacksAndQueues;
 /*
 2.	Basic Stack Operations
 You will be given an integer N representing the number of elements to push into the stack,
