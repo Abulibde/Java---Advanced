@@ -1,4 +1,4 @@
-package Advanced;
+package Advanced._1_StacksAndQueues;
 
 
 /*
