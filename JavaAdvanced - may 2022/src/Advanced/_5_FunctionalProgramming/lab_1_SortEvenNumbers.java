@@ -1,4 +1,4 @@
-package _5_FunctionalProgramming;
+package Advanced._5_FunctionalProgramming;
 
 /*
 1.	Sort Even Numbers
