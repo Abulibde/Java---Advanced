@@ -35,7 +35,7 @@ END	                         uo
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class _6_StringMatrixRotation {
+public class ex_6_StringMatrixRotation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
