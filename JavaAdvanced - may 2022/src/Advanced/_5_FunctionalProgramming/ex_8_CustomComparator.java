@@ -1,4 +1,4 @@
-package _5_FunctionalProgramming;
+package Advanced._5_FunctionalProgramming;
 
 /*
 Write a custom comparator that sorts all even numbers before all odd ones
