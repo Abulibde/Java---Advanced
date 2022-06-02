@@ -1,4 +1,4 @@
-package _5_FunctionalProgramming;
+package Advanced._5_FunctionalProgramming;
 
 /*
 The Wire’s parents are on a vacation for the holidays, and he is planning
