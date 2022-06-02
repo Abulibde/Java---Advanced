@@ -1,4 +1,4 @@
-package _5_FunctionalProgramming;
+package Advanced._5_FunctionalProgramming;
 
 /*
 Write a program that reads a collection of strings,
@@ -15,7 +15,6 @@ Peter George Alex	                    Peter
 
  */
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
