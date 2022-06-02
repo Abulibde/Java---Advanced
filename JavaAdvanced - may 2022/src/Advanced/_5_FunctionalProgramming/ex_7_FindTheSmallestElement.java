@@ -1,4 +1,4 @@
-package _5_FunctionalProgramming;
+package Advanced._5_FunctionalProgramming;
 
 /*
 Write a program that is using a custom function (written by you)
