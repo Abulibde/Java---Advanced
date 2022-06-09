@@ -1,4 +1,4 @@
-package _4_FunctionalProgramming;
+package _5_FunctionalProgramming;
 
 /*
 Write a program that reads one line of Integers separated by ", ".

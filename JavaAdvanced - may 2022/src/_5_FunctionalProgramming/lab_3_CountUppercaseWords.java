@@ -1,4 +1,4 @@
-package _4_FunctionalProgramming;
+package _5_FunctionalProgramming;
 
 /*
 3.	Count Uppercase Words
