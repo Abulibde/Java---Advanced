@@ -1,4 +1,4 @@
-package _3_SetsAndMaps;
+package Advanced._3_SetsAndMaps;
 
 /*
 Write a program that receives some info from the console about people and their phone numbers.
