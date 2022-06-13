@@ -1,4 +1,4 @@
-package _3_SetsAndMaps;
+package Advanced._3_SetsAndMaps;
 
 /*
 You are given an n number of chemical compounds. You need to keep track of all
@@ -14,7 +14,6 @@ Mo
 
  */
 
-import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
