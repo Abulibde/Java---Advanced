@@ -1,4 +1,4 @@
-package _3_SetsAndMaps;
+package Advanced._3_SetsAndMaps;
 
 /*
 There is a party in SoftUni. Many guests are invited, and they are two types: VIP and regular.
