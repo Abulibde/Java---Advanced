@@ -1,4 +1,4 @@
-package _3_SetsAndMaps;
+package Advanced._3_SetsAndMaps;
 
 /*
 Write a program that:
@@ -28,7 +28,6 @@ IN, CA2822UU
 END	CA9999TT
  */
 
-import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Scanner;
 import java.util.Set;
