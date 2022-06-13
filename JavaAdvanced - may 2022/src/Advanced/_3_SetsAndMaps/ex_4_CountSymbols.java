@@ -1,11 +1,10 @@
-package _3_SetsAndMaps;
+package Advanced._3_SetsAndMaps;
 
 /*
 Write a program that reads some text from the console and counts the occurrences
 of each character in it. Print the results in alphabetical (lexicographical) order.
  */
 
-import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
