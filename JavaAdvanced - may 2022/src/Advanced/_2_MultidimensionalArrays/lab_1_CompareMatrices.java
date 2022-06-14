@@ -1,4 +1,4 @@
-package Advanced._1_StacksAndQueues._2_MultidimensionalArrays;
+package Advanced._2_MultidimensionalArrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
