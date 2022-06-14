@@ -1,4 +1,4 @@
-package Advanced._1_StacksAndQueues._2_MultidimensionalArrays;
+package Advanced._2_MultidimensionalArrays;
 
 /*
 Write a program, which reads a string matrix from the console and performs certain operations
