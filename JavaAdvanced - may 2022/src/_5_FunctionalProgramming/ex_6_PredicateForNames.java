@@ -9,7 +9,7 @@ Print the names, passing the condition in the predicate.
 
 
 Examples
-Input	                                    Output	Input	Output
+Input	                                    Output
 4
 Sara Sam George Mark John	                Sara
                                             Sam
