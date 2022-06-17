@@ -1,6 +1,28 @@
 package _6_DefiningClasses.ex_2_CompanyRoster;
 
-import groovy.util.NodeList;
+/*
+Define a class Employee that holds the following information:
+name, salary, position, department, email, and age.
+The name, salary, position, and department are mandatory while the rest are optional.
+Your task is to write a program that takes N lines of information about employees
+from the console and calculates the department with the highest average salary
+and prints for each employee in that department his name, salary, email,
+and age - sorted by salary in descending order. If an employee doesn’t have
+an email – in place of that field you should print "n/a" instead, if he doesn’t
+have an age – print "-1" instead. The salary should be printed to two decimal places after the separator.
+Hint: you can define a Department class that holds a list of employees.
+
+Examples
+Input	                                                                                    Output
+4
+Peter 120.00 Dev Development peter@abv.bg 28
+Tina 333.33 Manager Marketing 33
+Sam 840.20 ProjectLeader Development sam@sam.com
+George 0.20 Freeloader Nowhere 18	                                                    Highest Average Salary: Development
+                                                                                        Sam 840.20 sam@sam.com -1
+                                                                                        Peter 120.00 peter@abv.bg 28
+
+ */
 
 import java.util.ArrayList;
 import java.util.Comparator;
