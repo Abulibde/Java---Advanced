@@ -1,4 +1,4 @@
-package _6_DefiningClasses._1_OpinionPoll;
+package _6_DefiningClasses.ex_1_OpinionPoll;
 
 import java.util.ArrayList;
 import java.util.Comparator;
