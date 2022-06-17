@@ -1,4 +1,4 @@
-package _6_DefiningClasses.ex_3_RawData;
+package _6_DefiningClasses.ex_4_RawData;
 
 public class Engine {
     private int speed;
