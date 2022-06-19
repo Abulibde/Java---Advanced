@@ -1,4 +1,4 @@
-package _2_MultidimensionalArrays;
+package Advanced._1_StacksAndQueues._2_MultidimensionalArrays;
 
 /*
 Write a program to generate the following matrix of palindromes of 3 letters
