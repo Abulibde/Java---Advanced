@@ -1,4 +1,4 @@
-package _2_MultidimensionalArrays;
+package Advanced._1_StacksAndQueues._2_MultidimensionalArrays;
 
 /*
 You are given a sequence of text lines. Assume these text lines form a matrix of characters
