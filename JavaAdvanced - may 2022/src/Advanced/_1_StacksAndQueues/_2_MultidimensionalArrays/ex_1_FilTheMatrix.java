@@ -1,4 +1,4 @@
-package _2_MultidimensionalArrays;
+package Advanced._1_StacksAndQueues._2_MultidimensionalArrays;
 
 /*
 Filling a matrix in the regular way (top to bottom and left to right) is boring.
