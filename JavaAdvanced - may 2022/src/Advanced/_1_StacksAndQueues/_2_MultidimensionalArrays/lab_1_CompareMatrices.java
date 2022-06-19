@@ -1,8 +1,6 @@
-package _2_MultidimensionalArrays;
+package Advanced._1_StacksAndQueues._2_MultidimensionalArrays;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class lab_1_CompareMatrices {
