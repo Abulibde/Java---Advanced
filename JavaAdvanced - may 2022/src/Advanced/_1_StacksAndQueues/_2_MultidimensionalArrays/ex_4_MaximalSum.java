@@ -1,4 +1,4 @@
-package _2_MultidimensionalArrays;
+package Advanced._1_StacksAndQueues._2_MultidimensionalArrays;
 
 /*
 Write a program that reads a rectangular integer matrix of size N x M
