@@ -65,6 +65,8 @@ public class Main {
         }
 
 
-        trainers.values().stream().sorted(Comparator.comparing(Trainer::getNumOfBadges).reversed()).forEach(System.out::println);
+        trainers.values().stream()
+                .sorted(Comparator.comparing(Trainer::getNumOfBadges).reversed())
+                .forEach(System.out::println);
     }
 }
