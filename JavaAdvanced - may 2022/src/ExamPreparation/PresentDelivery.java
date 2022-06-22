@@ -1,8 +1,6 @@
 package ExamPreparation;
 
-import java.util.Arrays;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 public class PresentDelivery {
     public static void main(String[] args) {
@@ -19,22 +17,75 @@ public class PresentDelivery {
         int[] santaPosition = new int[2];
         findSanta(neighborhoodSize, neighborhood, santaPosition);
 
-        String command = scanner.nextLine();
+        //read commands
+        String commend = scanner.nextLine();
         boolean outOfBounds = false;
-        while (!command.equals("Christmas morning")) {
+        boolean outOfPresents = false;
+        while (!commend.equals("Christmas morning")) {
 
-            outOfBounds = checkOutOfBounds(neighborhoodSize, santaPosition, command, outOfBounds);
+            //check the borders
+            outOfBounds = checkOutOfBounds(neighborhoodSize, santaPosition, commend, outOfBounds);
             if (outOfBounds) {
-                break;
+                System.out.println("Santa ran out of presents!");
+                return;
+            }
+
+            //move santa
+            moveSanta(santaPosition, commend);
+
+            //check the current position
+            char currentHouse = neighborhood[santaPosition[0]][santaPosition[1]];
+            switch (currentHouse) {
+                //nice kid
+                case 'V':
+                    presentCount--;
+                    if (presentCount <= 0) {
+                        outOfPresents = true;
+                        break;
+                    }
+                    neighborhood[santaPosition[0]][santaPosition[1]] = '-';
+                    break;
+
+                //bad kid
+                case 'X':
+                    neighborhood[santaPosition[0]][santaPosition[1]] = '-';
+                    break;
+
+                //cookies
+                case 'C':
+                    commend = "up";
+                    outOfBounds = checkOutOfBounds(neighborhoodSize, santaPosition, commend, outOfBounds);
+                    if (!outOfBounds){
+
+                    }
+
+                    neighborhood[santaPosition[0]][santaPosition[1]] = '-';
+                    break;
             }
 
 
-
-            command = scanner.nextLine();
+            commend = scanner.nextLine();
         }
 
         System.out.println();
 
+    }
+
+    private static void moveSanta(int[] santaPosition, String command) {
+        switch (command) {
+            case "up":
+                santaPosition[0] -= 1;
+                break;
+            case "down":
+                santaPosition[0] += 1;
+                break;
+            case "left":
+                santaPosition[1] -= 1;
+                break;
+            case "right":
+                santaPosition[1] += 1;
+                break;
+        }
     }
 
     private static boolean checkOutOfBounds(int neighborhoodSize, int[] santaPosition, String command, boolean outOfBounds) {
