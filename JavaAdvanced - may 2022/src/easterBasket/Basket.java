@@ -60,6 +60,6 @@ public class Basket {
         for (Egg egg : data) {
             sb.append(String.format("%s%n", egg.toString()));
         }
-        return sb.toString();
+        return sb.toString().trim();
     }
 }
