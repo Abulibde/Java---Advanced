@@ -38,7 +38,7 @@ public class GroomingSalon {
 
     public String getStatistics() {
         StringBuilder sb = new StringBuilder();
-        sb.append(String.format("The grooming salon has the following clients:%n"));
+        sb.append(String.format(" The grooming salon has the following clients:%n"));
 
         for (Pet pet : data) {
             sb.append(String.format("%s%n",pet.toString()));
