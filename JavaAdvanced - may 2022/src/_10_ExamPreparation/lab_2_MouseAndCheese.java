@@ -54,7 +54,7 @@ public class lab_2_MouseAndCheese {
     private static int row = 0;
     private static int col = 0;
     private static int eatenCheese = 0;
-    private static boolean mouseIsInField = true;
+    private static boolean IsInField = true;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -72,17 +72,17 @@ public class lab_2_MouseAndCheese {
 
             //move the mouse
             if (command.equals("up")) {
-                moveMouse(field, -1, 0);
+                move(field, -1, 0);
             } else if (command.equals("down")) {
-                moveMouse(field, 1, 0);
+                move(field, 1, 0);
             } else if (command.equals("left")) {
-                moveMouse(field, 0, -1);
+                move(field, 0, -1);
             } else if (command.equals("right")) {
-                moveMouse(field, 0, 1);
+                move(field, 0, 1);
             }
 
             //out of bounds
-            if (!mouseIsInField) {
+            if (!IsInField) {
                 System.out.println("Where is the mouse?");
                 break;
             }
@@ -116,7 +116,7 @@ public class lab_2_MouseAndCheese {
         }
     }
 
-    private static void moveMouse(char[][] field, int rowMutator, int colMutator) {
+    private static void move(char[][] field, int rowMutator, int colMutator) {
         boolean bonusHit = false;
 
         //get next position
@@ -126,7 +126,7 @@ public class lab_2_MouseAndCheese {
         //check the borders
         if (!isInBounds(field, nextRow, nextCol)) {
             field[row][col] = '-';
-            mouseIsInField = false;
+            IsInField = false;
             return;
         }
 
@@ -145,7 +145,7 @@ public class lab_2_MouseAndCheese {
 
         //use the bonus
         if (bonusHit) {
-            moveMouse(field, rowMutator, colMutator);
+            move(field, rowMutator, colMutator);
         }
 
 
