@@ -43,6 +43,6 @@ public class GroomingSalon {
         for (Pet pet : data) {
             sb.append(String.format("%s%n",pet.toString()));
         }
-        return sb.toString();
+        return sb.toString().trim();
     }
 }
