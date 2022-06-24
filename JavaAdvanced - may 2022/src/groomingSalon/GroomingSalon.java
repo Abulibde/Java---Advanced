@@ -41,7 +41,7 @@ public class GroomingSalon {
         sb.append(String.format(" The grooming salon has the following clients:%n"));
 
         for (Pet pet : data) {
-            sb.append(String.format("%s%n",pet.toString()));
+            sb.append(String.format("%s %s%n",pet.getName(),pet.getOwner()));
         }
         return sb.toString().trim();
     }
