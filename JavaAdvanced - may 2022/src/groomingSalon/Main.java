@@ -1,7 +1,6 @@
 package groomingSalon;
 
-import ExamPreparation.June2021.groomingSalon.GroomingSalon;
-import ExamPreparation.June2021.groomingSalon.Pet;
+
 
 public class Main {
 

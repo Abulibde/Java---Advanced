@@ -1,4 +1,4 @@
-package ExamPreparation.June2021.groomingSalon;
+package groomingSalon;
 
 public class Pet {
     private String name;
