@@ -1,4 +1,4 @@
-package _1_StacksAndQueues;
+package Advanced._1_StacksAndQueues;
 
 /*
 Write a program that reads N integers from the console and reverses them using a stack.

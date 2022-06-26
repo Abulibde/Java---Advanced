@@ -1,4 +1,4 @@
-package _1_StacksAndQueues;
+package Advanced._1_StacksAndQueues;
 
 
 
