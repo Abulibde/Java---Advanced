@@ -1,4 +1,4 @@
-package hotel;
+package _10_ExamPreparation.hotel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,14 +33,14 @@ public class Hotel {
     }
 
     //•	getStatistics() – returns a String in the following format:
-    //o	"The people in the hotel {name} are:
+    //o	"The people in the _10_ExamPreparation.hotel {name} are:
     //{Person1}
     //{Person2}
     //(…)"
 
     public String getStatistics() {
         StringBuilder sb = new StringBuilder();
-        sb.append(String.format("The people in the hotel %s are:%n",this.name));
+        sb.append(String.format("The people in the _10_ExamPreparation.hotel %s are:%n",this.name));
 
         for (Person person : roster) {
             sb.append(String.format("%s%n",person.toString()));
