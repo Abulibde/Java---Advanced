@@ -1,10 +1,10 @@
-package hotel;
+package _10_ExamPreparation.hotel;
 
 public class Main {
         // TODO
         public static void main (String[]args){
 
-            //Initialize the repository (hotel)
+            //Initialize the repository (_10_ExamPreparation.hotel)
             Hotel hotel = new Hotel("Hilton", 30);
             //Initialize entity
             Person person = new Person("Mark", 11111, 41, "Sofia");
@@ -42,7 +42,7 @@ public class Main {
 
             // Get Statistics
             System.out.println(hotel.getStatistics());
-            // The people in the hotel Hilton are:
+            // The people in the _10_ExamPreparation.hotel Hilton are:
             // Person Mark: 11111, Age: 41, Hometown: Sofia
             // Person Lizzy: 31311, Age: 24, Hometown: Varna
             // Person Lucy: 54122, Age: 31, Hometown: Birmingham
