@@ -1,4 +1,4 @@
-package workout;
+package _10_ExamPreparation.workout;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -16,7 +16,7 @@ public class Workout {
     }
 
     //•	Method addExercise(Exercise exercise) –
-    // adds an entity to the exercises If there is still space on the workout sheet (exerciseCount).
+    // adds an entity to the exercises If there is still space on the _10_ExamPreparation.workout sheet (exerciseCount).
     public void addExercise(Exercise exercise) {
         if (exerciseCount > exercises.size()) {
             exercises.add(exercise);
@@ -54,7 +54,7 @@ public class Workout {
     }
 
     //•	getStatistics() – returns a String in the following format:
-    //o	"Workout type: {workout type}
+    //o	"Workout type: {_10_ExamPreparation.workout type}
     //Exercise: {Exercise1}
     //Exercise: {Exercise2}
     //(…)"
