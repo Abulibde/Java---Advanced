@@ -1,4 +1,4 @@
-package workout;
+package _10_ExamPreparation.workout;
 
 public class Main {
     public static void main(String[] args) {
