@@ -1,4 +1,4 @@
-package easterBasket;
+package ExamPreparation.April2022.easterBasket;
 
 public class Egg {
     private String color;
