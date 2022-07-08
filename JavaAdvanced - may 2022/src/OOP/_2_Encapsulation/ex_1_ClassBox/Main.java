@@ -1,5 +1,7 @@
 package OOP._2_Encapsulation.ex_1_ClassBox;
 
+import OOP._2_Encapsulation.ex_1_ClassBox.Box;
+
 import java.util.Scanner;
 
 public class Main {
